@@ -7,3 +7,33 @@
 .logo img {
   width: 150px;
 }
+
+/* footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 2rem;
+  align-items: center;
+  background-color: #28242c;
+  color: #fff;
+  padding: 0.4rem;
+
+  button {
+    font-size: 1.3rem;
+    border-radius: 20px;
+    margin-left: 3rem;
+    padding: 0.2rem;
+    background-color: #f7c200;
+    text-transform: uppercase;
+  }
+  a {
+    color: #fff;
+    background-color: #28242c;
+    padding: 0.3rem;
+  }
+
+  .right-link {
+    margin-right: 4rem;
+    text-decoration: none;
+  }
+} */
