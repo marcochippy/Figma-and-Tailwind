@@ -8,6 +8,29 @@
   width: 150px;
 }
 
+#hero {
+  display: flex;
+}
+.content {
+  width: 50%;
+
+  h1 {
+    padding: 4rem;
+    font-size: 3rem;
+  }
+  h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+  .detail {
+    padding: 5rem;
+    background-color: #fdbf14;
+  }
+}
+.image {
+  width: 50%;
+}
+
 /* footer {
   display: flex;
   width: 100%;
