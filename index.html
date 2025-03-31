@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Figma & Tailwind</title>
     <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
@@ -58,9 +62,13 @@
 
       <!-- Contact Section -->
     </main>
-    <footer>
-      <button>Book Now</button>
-      <div class="links">
+    <footer
+      class="bg-gray-900 flex justify-between text-3xl item-center text-white p-4"
+    >
+      <button class="bg-yellow-400 rounded-2xl p-1 uppercase text-xl ml-12">
+        Book Now
+      </button>
+      <div class="flex gap-8">
         <a href="https://www.instagram.com/">
           <i class="fa-brands fa-instagram"></i
         ></a>
@@ -74,7 +82,7 @@
           <i class="fa-brands fa-twitter"></i
         ></a>
       </div>
-      <a class="right-link" href="#">www.yoursite.com</a>
+      <a class="mr-12" href="#">www.yoursite.com</a>
     </footer>
   </body>
 </html>
